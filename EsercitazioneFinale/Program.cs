@@ -35,8 +35,8 @@
 
 //Suggerimento:
 //Inizializzare una lista di skills.
-//Inizializzare una lista di impiegati, con almeno un elemento per ogni sottoclasse di impiegato e ognuno con
-//almeno una skill nella propria lista di skills.
+//Inizializzare una lista di impiegati, con almeno un elemento per ogni sottoclasse di impiegato e
+//ognuno con almeno una skill nella propria lista di skills.
 
 //Programma:
 //All’accesso, l’utente deve poter scegliere tra:
@@ -46,13 +46,16 @@
 //      hanno lo stesso codice fiscale.
 //      Attenzione: aggiungere un nuovo impiegato vuol dire avere la possibilità di aggiungere un tecnico,
 //      uno stagista o un manager.
-//Se l’utente sceglie di aggiungere, per esempio, un manager, bisognerà chiedere all’utente tutte le
-//informazioni sul manager. Stessa cosa per le altre figure.
-//Le skills da associare all’impiegato che si sta aggiungendo deve essere fatta tra le skills disponibili.
-//Non si può aggiungere due volte la stessa skill su un impiegato.
-//4. Eliminare un impiegato (input: codice fiscale).
-//5.Visualizzare gli impiegati con stipendio maggiore o uguale a quello inserito dall’utente.
-//6. Visualizzare tutti gli impiegati con una certa skill.
+//      Se l’utente sceglie di aggiungere, per esempio, un manager, bisognerà chiedere all’utente tutte le
+//      informazioni sul manager. Stessa cosa per le altre figure.
+//      Le skills da associare all’impiegato che si sta aggiungendo deve essere fatta tra le skills disponibili.
+//      Non si può aggiungere due volte la stessa skill su un impiegato.
+//  4. Eliminare un impiegato (input: codice fiscale).
+//  5.Visualizzare gli impiegati con stipendio maggiore o uguale a quello inserito dall’utente.
+//  6. Visualizzare tutti gli impiegati con una certa skill.
+
 //Quando l’utente termina un’operazione, deve poter rivedere il menu e fare un’altra scelta.
 //Inserire i controlli opportuni.
+using EsercitazioneFinale;
 
+Menu.Start();

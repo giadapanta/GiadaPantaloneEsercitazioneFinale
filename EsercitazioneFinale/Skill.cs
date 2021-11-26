@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace EsercitazioneFinale
 {
-    internal class Skills
+    internal class Skill
     {
+       public string Codice { get; set; }   
+        public string Descrizione { get; set; } 
+
     }
 }

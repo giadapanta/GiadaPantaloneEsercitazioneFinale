@@ -9,17 +9,23 @@ namespace EsercitazioneFinale
     internal class Impiegato : Person
     {
         public Settori Settore { get; set; }
-        public decimal Stipendio { get; set; }
-        
-       public static decimal CalcoloStipendio()
+               
+       public virtual decimal CalcoloStipendio()
         {
             return 0;
+        }
+
+        public List<Skill> Skills = new List<Skill>();
+
+        public override string ToString()
+            { 
+            return base.ToString() + $"- {Settore} - stipendio: {CalcoloStipendio()} Euro \n";
         }
 
     }
     public enum Settori
     {
-        Vendite =1,
+        Manutenzione =1,
         Amministrazione=2 ,
         Sviluppo=3 
     }
